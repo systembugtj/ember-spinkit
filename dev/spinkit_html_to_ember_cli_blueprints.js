@@ -32,15 +32,15 @@ function createBlueprint(name, css, html) {
 }
 
 function createFolders(name) {
-  mkdir.sync('../blueprints/spinkit-' + name + '/files/vendor/ember-cli-spinkit/templates/components/');
-  mkdir.sync('../blueprints/spinkit-' + name + '/files/vendor/ember-cli-spinkit/styles/');
+  mkdir.sync('../blueprints/spinkit-' + name + '/files/vendor/ember-spinkit/templates/components/');
+  mkdir.sync('../blueprints/spinkit-' + name + '/files/vendor/ember-spinkit/styles/');
 }
 
 function createFiles(name, css, html) {
   var indexjs = 'module.exports = { normalizeEntityName: function() {} };';
 
-  writeFile('../blueprints/spinkit-' + name + '/files/vendor/ember-cli-spinkit/templates/components/', 'spinkit-' + name, '.hbs', html);
-  writeFile('../blueprints/spinkit-' + name + '/files/vendor/ember-cli-spinkit/styles/', 'spinkit-' + name, '.css', css);
+  writeFile('../blueprints/spinkit-' + name + '/files/vendor/ember-spinkit/templates/components/', 'spinkit-' + name, '.hbs', html);
+  writeFile('../blueprints/spinkit-' + name + '/files/vendor/ember-spinkit/styles/', 'spinkit-' + name, '.css', css);
   writeFile('../blueprints/spinkit-' + name + '/', 'index', '.js', indexjs);
 }
 

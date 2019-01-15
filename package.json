@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-spinkit",
+  "name": "ember-spinkit",
   "version": "2.0.0",
   "description": "Add SpinKit loading spinners to your ember-cli project",
   "directories": {
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://www.github.com/pogopaule/ember-cli-spinkit.git"
+    "url": "http://www.github.com/systembugtj/ember-spinkit.git"
   },
   "bugs": {
-    "url": "http://www.github.com/pogopaule/ember-cli-spinkit/issues"
+    "url": "http://www.github.com/systembugtj/ember-cli-spinkit/issues"
   },
-  "homepage": "http://www.github.com/pogopaule/ember-cli-spinkit",
+  "homepage": "http://www.github.com/systembugtj/ember-cli-spinkit",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "pogopaule",
+  "author": "systembugtj",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -41,14 +41,15 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-cli-update": "^0.27.18",
     "ember-data": "^2.7.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.1",
     "findit": "^2.0.0",
     "glob": "^4.0.5",
+    "loader.js": "^4.0.1",
     "mkdirp": "^0.5.0",
     "underscore": "^1.7.0"
   },
@@ -59,7 +60,7 @@
     "loading"
   ],
   "dependencies": {
-     "chalk": "^1.0.0",
+    "chalk": "^1.0.0",
     "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
